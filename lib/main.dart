@@ -40,7 +40,7 @@ class _LotterAppState extends State<LotterApp> {
               height: 20,
             ),
             Container(
-              height: 300,
+              height: x == 5 ? 600 : 250,
               width: 300,
               decoration: BoxDecoration(
                   color: Colors.grey.withOpacity(.20),
